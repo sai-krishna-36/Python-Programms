@@ -69,8 +69,8 @@ maxi = max(arr)
 small = None
 big = None
 for num in arr:
-    # if num == mini or num == maxi:
-    #     continue
+    if num == mini or num == maxi:
+        continue
     if small is None or num < small:
         small = num
     if big is None or num > big:
