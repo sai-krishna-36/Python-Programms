@@ -1,8 +1,8 @@
 num = int(input("Enter a Number: "))
-temp = num
+# temp = num
 rev = 0
-while temp > 0:
-	digit = temp % 10
+while num > 0:
+	digit = num % 10
 	rev = rev*10+digit
-	temp = temp // 10
+	num = num // 10
 print(rev)
