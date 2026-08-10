@@ -1,5 +1,4 @@
 num = int(input("Enter a Number: "))
-# temp = num
 rev = 0
 while num > 0:
 	digit = num % 10
