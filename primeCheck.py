@@ -9,16 +9,3 @@
 #     else:
 #         print(num, "is a prime Number12")
 
-upto = int(input("Enter valid Number: "))
-num = 2
-count = 0
-while count < upto:
-    prime = True
-    for i in range(2,num):
-        if num%i == 0:
-            prime = False
-            break
-    if prime:
-        print(num)
-        count += 1
-    num += 1
